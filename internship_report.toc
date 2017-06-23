@@ -1,0 +1,27 @@
+\select@language {bahasa}
+\contentsline {chapter}{DAFTAR GAMBAR}{iii}{chapter*.2}
+\contentsline {chapter}{DAFTAR TABEL}{1}{chapter*.3}
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{I - 1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Latar Belakang}{I - 1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Perumusan Masalah}{I - 1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Tujuan}{I - 2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Metodologi Penelitian}{I - 2}{section.1.4}
+\contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{II - 1}{chapter.2}
+\contentsline {section}{\numberline {2.1}\emph {Android}}{II - 1}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Sejarah \emph {Android}}{II - 1}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Penggunaan \emph {Android}}{II - 1}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}\emph {PHP}}{II - 1}{section.2.2}
+\contentsline {section}{\numberline {2.3}\emph {MySQL}}{II - 1}{section.2.3}
+\contentsline {section}{\numberline {2.4}\emph {Web Server dan Web Service}}{II - 1}{section.2.4}
+\contentsline {chapter}{\numberline {III}PEMBAHASAN}{III - 1}{chapter.3}
+\contentsline {chapter}{\numberline {IV}IMPLEMENTASI DAN PENGUJIAN}{IV - 1}{chapter.4}
+\contentsline {section}{\numberline {4.1}Implementasi}{IV - 1}{section.4.1}
+\contentsline {section}{\numberline {4.2}Pengujian}{IV - 1}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Pengujian \emph {Blackbox}}{IV - 1}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Pengujian Integrasi Sistem}{IV - 1}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {V}PENUTUP}{V - 1}{chapter.5}
+\contentsline {section}{\numberline {5.1}Kesimpulan}{V - 1}{section.5.1}
+\contentsline {section}{\numberline {5.2}Saran}{V - 1}{section.5.2}
+\contentsline {chapter}{LAMPIRAN}{VI - 2}{chapter*.4}
+\contentsline {section}{\numberline {6.3}Hasil Pengujian \emph {Blackbox}}{VI - 2}{section.6.3}
+\contentsline {chapter}{DAFTAR PUSTAKA}{VI - 3}{chapter*.5}

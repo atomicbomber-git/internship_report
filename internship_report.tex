@@ -1,0 +1,112 @@
+
+\documentclass[bahasa, a4paper, 12pt]{report}
+\usepackage[bahasa]{babel}
+
+\usepackage{mathptmx} % Use Times New Roman as the main font
+\usepackage[hidelinks]{hyperref} % Adds clickable references
+\usepackage{titlesec} % Allows modification of title styles
+\usepackage{lipsum} % Filler text
+\usepackage{chappg} % Allows resetting page number every time a new chaper begins
+\usepackage{indentfirst} % First line indent for the first paragraph after a header
+\usepackage{graphicx} % Allows images to be inserted
+\graphicspath{{images/}}
+\usepackage[nottoc]{tocbibind} % 
+
+% Custom chapter header text
+\titleformat {\chapter} [display]
+	{\bfseries\filcenter} % Format
+	{BAB \ \thechapter} % Label / Header text
+	{0.5ex} % Separator
+	{} % Before-code
+	[] % After-code
+
+% All section headers use normal font
+\titleformat{\section}
+	{\normalfont}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+	{\normalfont}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+	{\normalfont}{\thesubsubsection}{1em}{}
+
+% Page number resets every time a new chapter begins
+\pagenumbering{bychapter}
+
+\begin{document}
+	\renewcommand\thechapter{\Roman{chapter}}
+	\renewcommand\thesection{\arabic{chapter}.\arabic{section}}
+
+	\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+	
+	\pagenumbering{roman}
+	
+	\renewcommand{\contentsname}{DAFTAR ISI}
+	\tableofcontents
+	
+	\renewcommand{\listfigurename}{DAFTAR GAMBAR}
+	\listoffigures
+	
+	\renewcommand{\listtablename}{DAFTAR TABEL}
+	\listoftables
+	
+
+	\pagenumbering{bychapter}
+	\chapter{PENDAHULUAN}
+		% Page numbering format for the main content of the report, example: "I-1"
+		\renewcommand{\thepage}{\Roman{chapter} - \arabic{page}}
+	
+		\section{Latar Belakang}
+			\lipsum[1]
+			
+			\begin{figure}[tb]
+				\centering
+				\includegraphics[scale=0.2]{images/rose}
+				\caption{Bunga Mawar}
+			\end{figure}
+		
+			\lipsum[1]
+			
+		\section{Perumusan Masalah}
+		
+			\lipsum[1]
+		\section{Tujuan}
+		\section{Metodologi Penelitian}
+	\chapter{TINJAUAN PUSTAKA}
+		\section{\emph{Android}}
+			\subsection{Sejarah \emph{Android}}
+			\subsection{Penggunaan \emph{Android}}
+		\section{\emph{PHP}}
+		\section{\emph{MySQL}}
+		\section{\emph{Web Server dan Web Service}}
+	\chapter{PEMBAHASAN}
+	\chapter{IMPLEMENTASI DAN PENGUJIAN}
+		\section{Implementasi}
+		\section{Pengujian}
+		\subsection{Pengujian \emph{Blackbox}}
+		\subsection{Pengujian Integrasi Sistem}
+	\chapter{PENUTUP}
+		\section{Kesimpulan}
+		\section{Saran}
+	
+
+	\chapter*{LAMPIRAN}
+		\setcounter{chapter}{6}
+		\addcontentsline{toc}{chapter}{LAMPIRAN}
+		\section{Hasil Pengujian \emph{Blackbox}}
+	
+	\bibliographystyle{APA}
+	\renewcommand\bibname{DAFTAR PUSTAKA}
+	\begin{thebibliography}{9}
+		
+		\bibitem{lamport94}
+		Leslie Lamport,
+		\textit{\LaTeX: a document preparation system},
+		Addison Wesley, Massachusetts,
+		2nd edition,
+		1994.
+		
+	\end{thebibliography}
+
+	
+\end{document}
